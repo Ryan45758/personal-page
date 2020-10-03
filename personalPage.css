@@ -1,0 +1,40 @@
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    width: 100%;
+}
+
+.my-carousel {
+    overflow: hidden;
+}
+
+#bird-name {
+    width: 150px;
+    border-radius: 20px;
+    background-color: rgba(46, 45, 45, 0.5) !important;
+    color: rgb(255, 255, 255);
+    line-height: 30px;
+}
+
+#bird-name h4 {
+    padding-top: 5px !important;
+    margin-bottom: 0px !important;
+}
+
+.my-photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 25%;
+    border: 1px solid rgb(167, 167, 167);
+}
+
+.container-wrapper {
+    width: 100%;
+    margin: auto;
+}
+
+.row-wrapper {
+    margin: auto;
+}
