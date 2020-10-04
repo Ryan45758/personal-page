@@ -3,12 +3,44 @@ html {
     font-size: 14px;
 }
 
-@media screen and (max-width: 582px) {
+
+/* 螢幕最小寬度大於582且最大寬度小於1024啟用以下程式碼 */
+
+@media screen and (min-width: 576px) and (max-width: 1024px) {
+    h4 {
+        font-size: 25px !important;
+    }
+    .present {
+        line-height: 35px;
+    }
+    .aboutme {
+        padding-bottom: 5px;
+    }
+    .phone-padding {
+        padding-bottom: 10px;
+    }
+}
+
+
+/* 螢幕最大寬度小於582啟用以下程式碼 */
+
+@media screen and (max-width: 576px) {
     h4 {
         font-size: 14px !important;
     }
     .present {
         line-height: 25px;
+    }
+    .aboutme {
+        padding-bottom: 10px;
+    }
+    .phone-padding {
+        padding-bottom: 10px;
+    }
+    .card {
+        width: 350px;
+        margin: auto;
+        margin-bottom: 20px !important;
     }
 }
 
@@ -33,12 +65,20 @@ img {
     margin-bottom: 0px !important;
 }
 
+.personal-present {
+    height: 55px;
+}
+
 .about-me {
     height: 55px;
 }
 
 .speciality {
     height: 55px;
+}
+
+.photo-div {
+    text-align: center;
 }
 
 .my-photo {
