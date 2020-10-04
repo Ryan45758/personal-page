@@ -1,5 +1,18 @@
 html {
     scroll-behavior: smooth;
+    font-size: 14px;
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+    .rwdtxt {
+        font-size: calc(1.2rem + (1.3-1.2) * ((100vw - 600px) / (1200 - 600)));
+    }
+}
+
+@media (min-width: 1200px) {
+    .rwdtxt {
+        font-size: 1.3rem;
+    }
 }
 
 img {
