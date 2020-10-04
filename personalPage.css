@@ -3,6 +3,10 @@ html {
     font-size: 14px;
 }
 
+h1 {
+    font-size: 6vmin !important;
+}
+
 h3 {
     font-size: 3.8vmin !important;
 }
@@ -26,6 +30,14 @@ img {
 #bird-name h4 {
     padding-top: 5px !important;
     margin-bottom: 0px !important;
+}
+
+.about-me {
+    height: 45px;
+}
+
+.speciality {
+    height: 45px;
 }
 
 .my-photo {
