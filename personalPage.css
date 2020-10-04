@@ -3,12 +3,13 @@ html {
     font-size: 14px;
 }
 
-h1 {
-    font-size: 6vmin !important;
-}
-
-h3 {
-    font-size: 3.8vmin !important;
+@media screen and (max-width: 582px) {
+    h4 {
+        font-size: 14px !important;
+    }
+    .present {
+        line-height: 25px;
+    }
 }
 
 img {
