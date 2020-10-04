@@ -19,6 +19,15 @@ html {
     .phone-padding {
         padding-bottom: 10px;
     }
+    .card {
+        width: 320px;
+        margin: auto;
+        margin-bottom: 20px !important;
+    }
+    .photo-div {
+        text-align: center;
+        margin-top: 20px !important;
+    }
 }
 
 
@@ -38,9 +47,13 @@ html {
         padding-bottom: 10px;
     }
     .card {
-        width: 350px;
+        width: 320px;
         margin: auto;
         margin-bottom: 20px !important;
+    }
+    .photo-div {
+        text-align: center;
+        margin-top: 20 px !important;
     }
 }
 
@@ -79,6 +92,7 @@ img {
 
 .photo-div {
     text-align: center;
+    margin-top: 15%;
 }
 
 .my-photo {
