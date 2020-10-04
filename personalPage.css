@@ -3,6 +3,10 @@ html {
     font-size: 14px;
 }
 
+h3 {
+    font-size: 3.8vmin !important;
+}
+
 img {
     width: 100%;
 }
@@ -37,5 +41,11 @@ img {
 }
 
 .row-wrapper {
+    margin: auto;
+}
+
+.img-wrapper {
+    width: 80%;
+    height: 80%;
     margin: auto;
 }
